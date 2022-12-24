@@ -1,0 +1,397 @@
+html{
+  margin: 0;
+}
+body{
+  margin: 0;
+  background-color: #EBEBEB;
+}
+.App {
+  text-align: center;
+  margin: 0 103px;
+}
+
+select{
+  cursor: pointer;
+}
+
+option{
+  border: none;
+}
+
+.field-sort{
+    position: absolute;
+    width: 301px;
+    height: 160px;
+    left: 400.5px;
+    top: 21px;
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    border-radius: 1rem;
+}
+
+.list-filters{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.filter{
+  margin-top: 10px;
+}
+
+.head-sort{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.img-head-sort{
+  margin-right: 1rem;
+}
+
+.left-head-sort{
+  display: flex;
+  align-items: center;
+}
+
+
+input:focus-visible{
+  outline: none;
+}
+
+.App-header {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* font-size: calc(10px + 2vmin); */
+
+}
+
+.container{
+  display: flex;
+}
+
+.text-header{
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+  
+    color: #000000;
+}
+
+.CardStudent{
+  width: 575px;
+  background-color: white;
+  border-radius:  0px 10px 0px 0px;
+}
+
+.THCardStudent{
+    background-color: #1A71A1!important;
+    border-radius: 0px 10px 0px 0px !important;
+}
+
+.TRCardStudent{
+  border-right: 1px solid #838383;
+}
+.TRCardStudent:hover {
+  background-color: transparent;
+}
+
+.HCardStudent{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+  border-radius: 0px 10px 0px 0px!important;
+  margin-left: 15px;
+}
+
+.HCardStudent div{
+  color: white;
+  margin:  0 0px 0 10px;
+}
+
+.InfoCardStudent{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center; 
+  border-right: none;
+  padding-top: 15%;
+}
+
+.InfoCardStudent div{
+  color: #AAAAAA;
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 70%;
+
+}
+
+.icons-header{
+  padding-top: 8px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icons-header {
+  margin-left: 15px;
+  display: flex;
+  cursor: pointer;
+}
+
+.search-header{
+  margin-left: 125px;
+  width: 215px;
+  margin-top: 8px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  height: 26px;
+}
+
+.input-header{
+  border: none;
+}
+
+table{
+  width: 1207px;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  border-collapse: collapse;
+}
+thead{
+  background-color: #99DAFF;
+
+  border-radius: 10px 10px 0px 0px;
+}
+th,td{
+  border-right: 1px solid #838383;
+}
+th:first-child{
+  border-radius: 10px 0 0 0;
+}
+tr{
+  height: 53px;
+}
+tr:last-child{
+  border-radius: 0 10px 0 0;
+  border-bottom: 1px solid #838383;
+}
+tbody tr:hover{
+  background-color: #EAF7FF;
+}
+.Wfio{
+  width: 23%;
+}
+.WFaculty{
+  width: 20.3%;
+}
+.WStudTicket{
+  width: 11.6%;
+}
+.WKafedra{
+  width: 15.9%;
+}
+
+.WTheme{
+  width: 32%;
+}
+
+.hidden{
+  display: none;
+}
+
+.MainCardStudent{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.row{
+  
+  display: flex;
+  flex-direction: row; 
+  margin: 21px 0 0 18px;
+}
+
+.rowBut{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 0 150px 110px;
+    
+}
+
+.nameRow{
+  display: flex;
+  color: #AAAAAA;
+  width: 181px;
+  align-items: center;
+}
+
+.valueRow{
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ai-start{
+  align-items: flex-start;
+}
+
+.progressRow{
+  display: flex;
+  align-items: center;
+}
+
+.Square{
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.modalMain{
+    padding: 1.5rem 0;
+    position: absolute;
+    width: 747px;
+    left: 586px;
+    top: 337px;
+
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.modalInput{
+    width: 672.54px;
+    height: 32px;
+    background: #EEEEEE;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    margin-top: 7px;
+    text-indent: 10px;
+}
+
+.but{
+    display: flex;
+    align-items: center;
+    
+    background: #E7ECFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    font-family: 'Advent Pro';
+    font-size: 12px;
+    padding:5px 10px;
+    cursor: pointer;
+}
+
+.but img{
+  margin: 0px 5px 0 0 ;
+}
+
+.bUpdate{
+  background: #E7ECFF;
+}
+
+.bRemove {
+  background: #FFE7F7;
+  margin-left: 80px;
+}
+
+.bAdd {
+  background: #D1FFD6;
+}
+
+.green{
+background-color: #00CC45;;
+}
+
+.red{
+  background-color: red;
+}
+
+.grey{
+  background-color: #E1E1E1;
+}
+
+#ThemeWork{
+  width: 56.9%;
+  margin-right: 10px;
+}
+
+#MarkWork{
+  width: 20%;
+  margin-right: 10px;
+}
+.addNewWork{
+  width: 15%;
+  cursor: pointer;
+
+  font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.6%;
+    color: #8D8D8D;
+}
+.fieldThemeWork{
+  display: inline-block;
+  width: 672.54px;
+  margin-top: 7px;
+}
+
+.fieldDateStartEnd{
+  display: flex;
+  margin-top: 7px;
+  padding-left: 2.5rem;
+  width: 52.5%;
+}
+.fieldProgressEducation{
+  padding-left: 1.5rem;
+}
+#startEducation{
+  margin-right: 1rem;
+}
+.fieldButton{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.closeButt{
+  position: absolute;
+  width: 12px;
+  top: 12px;
+  right: 12px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.emptyField{
+  height: 15px;
+}
+.emptyField:hover{
+  background-color: transparent;
+}
